@@ -1,0 +1,29 @@
+{
+    "name": "sophokles/dataobject",
+    "description": "Sophokles Data Object Library",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+      {
+        "name": "Bernd Wagner",
+        "email": "iron_angel2000@yahoo.de"
+      }
+    ],
+    "version" : "1.0.0",
+    "require": {
+      "php": ">=8.1, <8.9"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "^11.0"
+    },
+    "autoload":{
+      "psr-4":{
+        "Sophokles\\Dataobject\\" : "src/"
+      }
+    },
+    "autoload-dev":{
+      "psr-4":{
+        "Sophokles\\Dataobject\\Tests" : "tests/"
+      }
+    }
+  }
