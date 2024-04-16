@@ -14,12 +14,12 @@ Usage Examples
 --------------
 
 Small usage examples have been included in the [examples/](examples/) folder. The examples are PHP scripts which shows
-how the translation classes work.
+how the object classes work.
 
 
-> 1. Define the traget language
+> 1. Define a custom model class object extending AbstractDataObject
 
-> 2. Register the JSON-tranlationfile to the tranlation class
+> 2. Create a new object from your model class, use your data array in the constructor
 
-> 3. Get the tranlations with the language class (lang)
+> 3. Access to the data on your object by getters and setters
 
